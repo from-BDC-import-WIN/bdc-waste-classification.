@@ -1,0 +1,20 @@
+# data
+data/*
+!data/.gitkeep
+
+# models / training artifacts
+models/*
+!models/.gitkeep
+
+# claude
+.claude/
+
+# python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+venv/
+.venv/
+
+# os
+.DS_Store
