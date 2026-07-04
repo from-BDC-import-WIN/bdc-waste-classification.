@@ -1,0 +1,4 @@
+extend-exclude = [
+    "notebooks/archive",
+    "notebooks/01_eda.ipynb",
+]
