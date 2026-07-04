@@ -15,3 +15,9 @@ repos:
       - id: check-added-large-files
         args: [--maxkb=10000]   # cegah model.pt kegedean ke-commit gak sengaja
       - id: check-merge-conflict
+
+  - repo: https://github.com/compilerla/conventional-pre-commit
+    rev: v3.4.0
+    hooks:
+      - id: conventional-pre-commit
+        stages: [commit-msg]
