@@ -61,6 +61,7 @@ jupyterlab_server==2.28.0
 kiwisolver==1.5.0
 lark==1.3.1
 lightning-utilities==0.15.3
+llvmlite==0.48.0
 MarkupSafe==3.0.3
 matplotlib==3.11.0
 matplotlib-inline==0.2.2
@@ -74,7 +75,8 @@ nest-asyncio2==1.7.2
 networkx==3.6.1
 nodeenv==1.10.0
 notebook_shim==0.2.4
-numpy==2.5.0
+numba==0.66.0
+numpy==2.4.6
 packaging
 pandas==3.0.3
 pandocfilters==1.5.1
@@ -92,6 +94,7 @@ pycparser==3.0
 pydantic==2.13.4
 pydantic_core==2.46.4
 Pygments==2.20.0
+pynndescent==0.6.0
 pyparsing==3.3.2
 python-dateutil==2.9.0.post0
 python-discovery==1.4.3
@@ -131,6 +134,7 @@ traitlets==5.15.1
 typing-inspection==0.4.2
 typing_extensions==4.16.0
 tzdata==2026.2
+umap-learn==0.5.12
 uri-template==1.3.0
 urllib3==2.7.0
 virtualenv==21.5.1
