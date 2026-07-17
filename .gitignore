@@ -6,6 +6,10 @@ data/*
 models/*
 !models/.gitkeep
 
+# cached inference artifacts (logits/features, regenerable from models/)
+artifacts/*
+!artifacts/.gitkeep
+
 # agent
 .claude/
 
