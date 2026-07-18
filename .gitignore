@@ -22,3 +22,6 @@ venv/
 
 # os
 .DS_Store
+
+# large local archives
+data.zip
